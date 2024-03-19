@@ -14,7 +14,7 @@
 	{#each tasks as task, index (task)}
 		<li>
 			{index + 1}: {task}
-			<button on:click={() => deleteTask(index)}>delete task</button>
+			<button on:click={() => deleteTask(index)}>delete</button>
 		</li>
 	{/each}
 </ul>
