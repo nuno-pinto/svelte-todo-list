@@ -5,7 +5,13 @@
 	let task = '';
 
 	function validateTask(task: string) {
-		if (task === '' || tasks.includes(task)) {
+		if (task === '') {
+			alert('Task cannot be empty');
+			return false;
+		}
+
+		if (tasks.includes(task)) {
+			alert('Task already exists');
 			return false;
 		}
 
@@ -14,7 +20,6 @@
 
 	function addTask(task: string) {
 		if (!validateTask(task)) {
-			alert('cringe');
 			return;
 		}
 
