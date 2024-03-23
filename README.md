@@ -2,12 +2,20 @@
 
 This is a simple to-do list web-app made using Svelte, with the purpose of learning the framework.
 
-## Preview
+## Install
 
-To preview this application, first clone the project and then simply run the following commands
+To install the necessary dependencies, run the following commands:
 
 ```bash
-npm run build # only need to run once
+npm install
+npm run build
+```
+
+## Preview
+
+To preview this application, first clone the project and then simply run the following command:
+
+```bash
 npm run preview
 ```
 
